@@ -29,23 +29,45 @@
         </ul>
       </nav>
     </header>
-    <section>
+    <section class="container">
       <div class="list">
-        <div class="item">
+        <div class="item active">
           <div class="car-img">
             <img src="/img/Carro Vermelho.png" alt="imagem_carro" />
           </div>
           <div class="content">
-            <p class="">Único Dono</p>
+            <p class="car-information">Único Dono</p>
             <h2>Ferrari</h2>
             <p class="description">Spider 458</p>
             <button class="information">Saiba Mais</button>
           </div>
         </div>
+        <div class="item">
+          <div class="car-img">
+            <img src="/img/Carro Prata.png" alt="imagem_carro" />
+          </div>
+          <div class="content">
+            <p class="car-information">Conversível</p>
+            <h2>911 Turbo</h2>
+            <p class="description">Carrinho bolado de maquinado</p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="car-img">
+            <img src="/img/Carro Amarelo.png" alt="imagem_carro" />
+          </div>
+          <div class="content">
+            <p class="car-information">Lambo 2015</p>
+            <h2>Lamborghini</h2>
+            <p class="description">Carrinho bolado de maquinado</p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
       </div>
       <div class="arrows">
-        <button><img src="/img/Seta.png" alt="Seta" /></button>
-        <button><img src="/img/Seta.png" alt="Seta" /></button>
+        <button id="prev"><img src="/img/Seta.png" alt="Seta esquerda" /></button>
+        <button id="next"><img src="/img/Seta.png" alt="Seta direita" /></button>
       </div>
       <div class="indicators">
         <div class="numbers">01</div>
@@ -56,5 +78,6 @@
         </ul>
       </div>
     </section>
+    <script src="./scripts.js"></script>
   </body>
 </html>
